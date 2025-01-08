@@ -193,10 +193,13 @@ plt.show()
 with open('scaler.pkl', 'rb') as f:
     scaler = pickle.load(f)
 
+import tkinter as tk
+from tkinter import filedialog
 
-#here you have to paste the file path for the single .wav file that u want to test.
+root = tk.Tk()
+root.withdraw()
 
-test_file_path = r"c:\Users\Kamlesh\Downloads\tress\TESS Toronto emotional speech set data\YAF_disgust\YAF_thought_disgust.wav"
+test_file_path = filedialog.askopenfilename(title="Select an audio file", filetypes = (("WAV files","*.wav"),("MP3 files","*.mp3")))
 test_features = extract_features(test_file_path)
 
 if test_features is not None:
@@ -210,3 +213,4 @@ if test_features is not None:
     print(f"Predicted emotion: {predicted_emotion[0]}")
 else:
     print("Error processing the audio file.")
+    
