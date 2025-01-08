@@ -193,6 +193,9 @@ plt.show()
 with open('scaler.pkl', 'rb') as f:
     scaler = pickle.load(f)
 
+
+#here you have to paste the file path for the single .wav file that u want to test.
+
 test_file_path = r"c:\Users\Kamlesh\Downloads\tress\TESS Toronto emotional speech set data\YAF_disgust\YAF_thought_disgust.wav"
 test_features = extract_features(test_file_path)
 
