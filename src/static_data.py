@@ -1,5 +1,5 @@
 #The following code can classify emotions with 93-95% accuracy. The code is for static data i.e. audio files you may already have in audio format .wav
-#The code can sometimes mismatch neutral/calm/sad as the tone and pitch is in very similar range for this emotions
+#The code can sometimes mismatch neutral/calm/sad as the tone and pitch are in very similar ranges for these emotions
 
 #Code:
 
