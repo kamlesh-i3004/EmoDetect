@@ -1,6 +1,9 @@
-#Here the below code is used to classify emotions based on Real-Time voice data. Although it works with max 95% in controlled environment 
-#but things like noise disturbation, accent, tone can vary the output sometimes. 
+#Here the below code is used to classify emotions based on Real-Time voice data. Although it works with max 95% in a controlled environment 
+#but things like noise disturbance, accent, and tone can vary the output sometimes. 
 
+#before copy-pasting the code kindly run the following line of code in your terminal
+#pip install numpy pandas tensorflow matplotlib seaborn librosa tqdm pickle scikit-learn sounddevice 
+#for further help read the readme file
 #Code:
 
 import os
