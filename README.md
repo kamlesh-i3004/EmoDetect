@@ -21,7 +21,7 @@ Before doing anything else use this code line in your terminal
 
 pip install numpy pandas tensorflow matplotlib seaborn librosa tqdm pickle scikit-learn sounddevice
 
-For jupyternotebook remember to use " ! " before pip to run into a syntax error
+For jupyternotebook remember to use " ! " before pip to not run into a syntax error
 
 For Vscode paste the above line of code in the terminal section refer to the bottom image for that
 ![image](https://github.com/user-attachments/assets/249462b3-ed29-4ce4-8daa-976d025f7bce)
