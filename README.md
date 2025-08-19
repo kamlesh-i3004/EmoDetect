@@ -1,29 +1,77 @@
-# Emotion-Detection-Through-Voice
-Real-Time Audio Emotion Recognition
-This project focuses on real-time and static audio emotion recognition using machine learning models. The goal is to accurately classify emotions such as happy, sad, angry, and neutral from audio data.
+<!-- EmoDetect: Modern README -->
 
-Key Features:
+<p align="center">
+  <img src="https://img.shields.io/github/stars/kamlesh-i3004/EmoDetect?style=social" alt="GitHub Stars" />
+  <img src="https://img.shields.io/github/forks/kamlesh-i3004/EmoDetect?style=social" alt="GitHub Forks" />
+  <img src="https://img.shields.io/github/issues/kamlesh-i3004/EmoDetect" alt="GitHub Issues" />
+  <img src="https://img.shields.io/github/license/kamlesh-i3004/EmoDetect" alt="License" />
+</p>
 
-1) Real-time audio processing: Captures voice data through a microphone and performs real-time emotion prediction.
+<h1 align="center">🎤 EmoDetect: Real-Time Emotion Detection Through Voice</h1>
+<p align="center">
+  <b>Classifies emotions from voice using Machine Learning.<br>Supports real-time & static audio, high accuracy, and easy integration!</b>
+</p>
 
-2) Static audio testing: Allows testing with pre-recorded audio files for better model performance evaluation.
+---
 
-3) Multiple emotion classes: Supports classification of common emotions.
+## 🚀 Quick Start
 
-4) High accuracy: Achieves 93-95% accuracy in controlled environments.
-
-Goal:
-
-To develop a robust emotion detection system that can efficiently process both real-time and static audio data. This project serves as a foundation for further improvements and potential real-world applications in areas like virtual assistants, customer support, and mental health monitoring.
-
-
-Before doing anything else use this code line in your terminal 
-
+```bash
 pip install numpy pandas tensorflow matplotlib seaborn librosa tqdm pickle scikit-learn sounddevice
+```
+> **For Jupyter Notebook:** Use `!` before `pip`<br>
+> **For VSCode:** Paste in the terminal (see image below)
 
-For jupyternotebook remember to use " ! " before pip to not run into a syntax error
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/249462b3-ed29-4ce4-8daa-976d025f7bce" width="450" />
+</p>
 
-For Vscode paste the above line of code in the terminal section refer to the bottom image for that
-![image](https://github.com/user-attachments/assets/249462b3-ed29-4ce4-8daa-976d025f7bce)
+---
 
-That's It Enjoy and for the explanation of the code look into the Documentation file :)
+## 🧩 Features
+
+- 🎙️ **Real-Time Audio Processing:** Live emotion prediction from microphone input
+- 📂 **Static Audio Testing:** Evaluate with pre-recorded files
+- 😄 **Multiple Emotion Classes:** Happy, Sad, Angry, Neutral, and more!
+- 🔥 **High Accuracy:** 93-95% in controlled environments
+
+---
+
+## 🗒️ Documentation & Resources
+
+<p align="center">
+  <a href="https://github.com/kamlesh-i3004/EmoDetect/blob/main/Documentation.md">
+    <img src="https://img.shields.io/badge/View-Documentation-blue?style=for-the-badge" alt="Documentation"/>
+  </a>
+  <a href="https://github.com/kamlesh-i3004/EmoDetect/issues">
+    <img src="https://img.shields.io/badge/Report%20Issue-GitHub-red?style=for-the-badge" alt="Issues"/>
+  </a>
+  <a href="https://github.com/kamlesh-i3004/EmoDetect/pulls">
+    <img src="https://img.shields.io/badge/Open%20Pull%20Request-green?style=for-the-badge" alt="Pull Requests"/>
+  </a>
+</p>
+
+---
+
+## 🎯 Project Goal
+
+Develop a robust emotion detection system for both real-time and static audio, laying the foundation for real-world applications such as virtual assistants, call centers, and more.
+
+---
+
+## 🤝 Contributing
+
+Pull requests, suggestions, and feedback are welcome!  
+See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+
+---
+
+## 📄 License
+
+This project is licensed under the terms of the [MIT License](LICENSE).
+
+---
+
+<p align="center">
+  <b>Enjoy EmoDetect! ⭐ If you like it, star the repo!</b>
+</p>
